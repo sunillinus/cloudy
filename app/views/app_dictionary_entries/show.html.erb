@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @app_dictionary_entry.name %>
+</p>
+
+<%= link_to 'Edit', edit_app_dictionary_entry_path(@app_dictionary_entry) %> |
+<%= link_to 'Back', app_dictionary_entries_path %>
