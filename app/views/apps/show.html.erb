@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @app.name %>
+</p>
+
+<p>
+  <strong>App dictionary entry:</strong>
+  <%= @app.app_dictionary_entry %>
+</p>
+
+<p>
+  <strong>Cloud:</strong>
+  <%= @app.cloud %>
+</p>
+
+<%= link_to 'Edit', edit_app_path(@app) %> |
+<%= link_to 'Back', apps_path %>
