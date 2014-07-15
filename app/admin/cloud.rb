@@ -1,4 +1,5 @@
 ActiveAdmin.register Cloud do
+  permit_params :name
 
   
   # See permitted parameters documentation:
