@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :clouds
+
   resources :apps
 
   resources :app_dictionary_entries
